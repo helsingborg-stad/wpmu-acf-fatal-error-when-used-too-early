@@ -1,0 +1,23 @@
+{
+    "name": "helsingborg-stad/wpmu-acf-fatal-error-when-used-too-early",
+    "homepage": "https://github.com/helsingborg-stad/wpmu-acf-fatal-error-when-used-too-early",
+    "description": "Throws a descriptive exception when an ACF field is accessed before WordPress has initialized.",
+    "type": "wordpress-muplugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Thulin",
+            "email": "sebastian.thulin@helsingborg.se"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^2.3"
+    },
+    "version": "1.0.0",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
