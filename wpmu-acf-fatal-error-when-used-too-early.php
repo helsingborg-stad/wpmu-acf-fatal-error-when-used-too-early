@@ -3,7 +3,7 @@
 /**
  * Plugin Name: WPMU ACF Fatal Error When Used Too Early
  * Description: Throws a descriptive exception when an ACF field is accessed before WordPress has initialized.
- * Version:     1.0.0
+ * Version: 0.1.0
  * Author:      Helsingborgs stad
  */
 
