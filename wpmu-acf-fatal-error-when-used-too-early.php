@@ -35,7 +35,7 @@ class WPMUAcfFatalErrorWhenUsedTooEarly
      */
     public function throwExceptionForEarlyFieldAccess()
     {
-        if (!defined('WP_DEBUG') || !WP_DEBUG || did_action('init')) {
+        if (did_action('init')) {
             return;
         }
 
